@@ -1,0 +1,25 @@
+New implementations of this discord bot will require the user to generate a new Discord Bot Token. 
+
+First, go to https://discord.com/developers to enter the Developer Portal. 
+- On the page named "Applications", click the button in the upper right corner labelled "New Application".
+- Give it a name (must be unique to any other Application names you have created) and click "Create".
+
+You will now have access to customization and information features about your application. 
+
+Now that an application has been made, you need to make a Bot for interaction with Discord
+- On the left hand side there is a menu with option "Bot" click on that. 
+- Click on the button "Add Bot" and then confirm that you want to add a bot to this application
+
+Next you need to authorize the application to act as a Bot.
+- On the left hand side there is a menu with option "OAuth2", click on that.
+- You must select at least one of the scopes, for this application, check the box that says "bot" in the second column
+- Copy the link that this generates and paste it into the web browser of your choice.
+- You will be given a page with a dropdown menu of possible Discord Servers to authorize the bot on
+- Select the server you want the Bot to operate on (you must have the permission "Manage Server" to add Bots)
+- Click "Authorize" and complete the recaptcha
+
+Finally, you need to generate the Bot Token
+- Under the subheading "Token" near the top of the page there is a piece of text that says "Click to Reveal Token"
+- Either reveal and copy token or click on the "Copy" button underneath
+- *THIS TOKEN SHOULD NOT BE SHARED WITH OTHERS*
+- You now have the Bot Token and can use it to start your bot, instructions to start the bot will be in another tutorial. 

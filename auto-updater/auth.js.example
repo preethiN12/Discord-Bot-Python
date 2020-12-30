@@ -1,0 +1,6 @@
+module.exports = {
+    runBot: "NzQ4...0uI",
+    updateChannel: "7573...2427",
+    webhookKey: "tZnmp...V20BLJ",
+    ghwebhooksecret: "asd...dfsd"
+}

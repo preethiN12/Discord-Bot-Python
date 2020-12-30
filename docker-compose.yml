@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  1405bot:
+    container_name: 1405bot
+    build: .
+    image: 1405bot
+    hostname: 1405bot
+    domainname: local.clarkbains.com
+    restart: always
+    volumes: 
+      - ../data:/data:z
